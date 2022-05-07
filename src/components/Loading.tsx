@@ -14,13 +14,6 @@ export const Loading: FC = () => {
 				ref.current!.style.visibility = 'hidden'
 			}
 		}
-
-		// setTimeout(() => {
-		// 	ref.current!.classList.add('disable')
-		// 	ref.current!.ontransitionend = () => {
-		// 		ref.current!.style.visibility = 'hidden'
-		// 	}
-		// }, 2000)
 	}, [loadingSnap.completed])
 
 	return (

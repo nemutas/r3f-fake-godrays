@@ -4,7 +4,7 @@ import { SceneState } from '../types/types';
 import { cameraSet } from './datas';
 
 export const sceneState: SceneState = {
-	lightProgress: 1,
+	lightProgress: 0,
 	hoveredFigure: false,
 	camera: cameraSet.camera1,
 	cameraTargetProgress: new THREE.Vector3(...cameraSet.camera1.target)
