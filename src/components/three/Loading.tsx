@@ -8,7 +8,7 @@ export const Loading: FC = () => {
 	useEffect(() => {
 		return () => {
 			loadingState.completed = true
-			gsap.to(sceneState, { lightProgress: 1, duration: 2, delay: 0.5, ease: 'none' })
+			gsap.to(sceneState, { lightProgress: 1, duration: 1.5, delay: 0.5, ease: 'power3.in' })
 		}
 	}, [])
 
